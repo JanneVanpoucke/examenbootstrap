@@ -1,90 +1,13 @@
-//font-family: 'Montserrat', sans-serif;
+
 body{
-  font-family: 'Montserrat', sans-serif;
-}
-.nav-link:hover{
-  border: white !important;
-  border-radius: 50%;
+  font-family: 'Roboto', sans-serif;
+  background: #282a2e;
 }
 .navbar-brand{
-  padding-left: 15%;
-  color:#fff !important;
-}
-.navbar-nav{
-  margin-left: 53%;
-}
-.nav-link {
-  color: #fff !important;
-  border:none;
-}
-.nav-item:hover {
-  border: 1px solid #fff;
-  border-radius: 50%;
+  padding-left: 30px;
 }
 
-#blokeen{
-  background-image:url("../img/backgroundheader.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  color:#fff !important;
-}
-#titel1{
-  color:#fff;
-  margin-top: 298px;
-  font-weight: bold;
-}
-#tussenteksteen{
-  font-weight:lighter;
-}
-#knoppendeeleen{
-  margin-top: 62px;
-  margin-left:50px;
-}
-.btn{
-  color: #fff;
-  border: 1px solid #fff;
-  border-radius: 50%;
-}
-.btnblauw{
-  color: #fff;
-  border: 1px solid #274799;
-  border-radius: 50%;
-  background: #274799;
-}
-#knopeen{
-  color:#d33016;
-  background: #fff;
-}
-#knoptwee{
-  margin-left: 36px;
-}
-#bloktwee{
-  background: #f6f6f6;
-}
-#blokdrie{
-  background: white;
-  background-image:url("../img/droneblok3.png");
-  background-repeat: no-repeat;
-  background-position: right;
-}
-#blokvier{
-  background: #f6f6f6;
-}
-#blokvijf{
-  height: 603px;
-}
-#blokzes{
-  background: white;
-}
-.title{
-  color: #d94612;
-}
-.tekst{
-  color:#5e6372;
-}
-.teksttwee{
-  color:#adb2c0;
-}
+
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
 
@@ -105,94 +28,81 @@ body{
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-
-  .nav-link:hover{
-    border: white !important;
-    border-radius: 50%;
+  .navbar{
+    height: 112px;
   }
-  .navbar-brand{
-    padding-left: 15%;
-    color:#fff !important;
-  }
-  .navbar-nav{
-    margin-left: 53%;
+  #brand{
+    font-size: 1rem;
   }
   .nav-link {
     color: #fff !important;
-    border:none;
-  }
-  .nav-item:hover {
-    border: 1px solid #fff;
-    border-radius: 50%;
+    font-size: 0.6667rem;
+    &:hover{
+      color: #97c248 !important;
+    }
   }
 
-  #blokeen{
-    height:1080px;
-    background-image:url("../img/backgroundheader.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    color:#fff !important;
+  .fa{
+    font-size: 15px !important;
   }
-  #titel1{
-    color:#fff;
-    margin-top: 298px;
+  .navbar-brand{
+    padding-left: 126px;
+    padding-right: 12px;
+    margin-right: 236px;
+  }
+  .navbar-nav {
+    margin-right: 131px;
+  }
+  .nav-item{
+    padding-right: 43px
+  }
+  .carousel-caption{
+
+  }
+  #carouselExampleIndicators{
+    height: 588px;
+  }
+  #afdruk1{
+    font-size: 3rem;
+    font-weight: lighter;
+  }
+  #afdruk2{
+    font-size: 2rem;
     font-weight: bold;
   }
-  #tussenteksteen{
-    font-weight:lighter;
+  #afdruk3{
+    font-size: 3rem;
+    font-weight: lighter;
   }
-  #knoppendeeleen{
-    margin-top: 62px;
-    margin-left:50px;
+  #afdruk4{
+    font-size: 2rem;
+    font-weight: bold;
   }
-  .btn{
-    color: #fff;
-    border: 1px solid #fff;
-    border-radius: 50%;
+  #afdruk5{
+    font-size: 3rem;
+    font-weight: lighter;
   }
-  .btnblauw{
-    color: #fff;
-    border: 1px solid #274799;
-    border-radius: 50%;
-    background: #274799;
+  #afdruk6{
+    font-size: 2rem;
+    font-weight: bold;
   }
-  #knopeen{
-    color:#d33016;
-    background: #fff;
+  .carousel-caption{
+    margin-bottom: 200px;
   }
-  #knoptwee{
-    margin-left: 36px;
+  #blok3{
+    height:440px;
+    background: #282a2e;
   }
-  #bloktwee{
-    height: 600px;
-    background: #f6f6f6;
-  }
-  #blokdrie{
-    height: 688px;
-    background: white;
-    background-image:url("../img/droneblok3.png");
-    background-repeat: no-repeat;
-    background-position: right;
-  }
-  #blokvier{
-    height: 1772px;
-    background: #f6f6f6;
-  }
-  #blokvijf{
-    height: 603px;
-  }
-  #blokzes{
-    height: 396px;
-    background: white;
-  }
-  .title{
-    color: #d94612;
+  #services{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    color: #fff !important;
   }
   .tekst{
-    color:#5e6372;
+    color: #fff !important;
   }
-  .teksttwee{
-    color:#adb2c0;
+  .title{
+    color: #fff !important;
   }
 }
 
